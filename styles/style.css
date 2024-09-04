@@ -1,10 +1,7 @@
 /* место для вашего кода */
 
-h1 {
-
-}
-
 .header {
+
     width: 1100px;
     height: 293px;
     display: flex;
@@ -12,6 +9,7 @@ h1 {
 }
 
 .header__menu { 
+
     display: grid;
     grid-template-columns: 1fr 150px 1fr;
     width: 1052px;
@@ -20,6 +18,7 @@ h1 {
 }
 
 .header__links {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -32,18 +31,21 @@ h1 {
 }
 
 .header__links-item {
+
     font-weight: 400;
     font-size: 18px;
     text-decoration: underline;
 
 }
 
-.header__links-item_nobullit{
+.header__links-item_nobullit {
+
     list-style: none;
     text-decoration: none;
 }
 
 .header__logo {
+    
     height: 105px;
     width: 148px;
     justify-self: center;
@@ -279,8 +281,10 @@ h1 {
     font-size: 20px;
     line-height: 1.2;
 }
+
 .about__text_content span:first-of-type {
 margin-bottom: 24px;
+
 }
 
 .footer {
@@ -297,13 +301,15 @@ margin-bottom: 24px;
     text-decoration: underline;
     text-align: center;
     font-size: 18px;
-    line-height: 1.2;  
+    line-height: 1.2;
+
 }
 
 .footer__social-links {
     display: flex;
     list-style: none;
     gap: 48px;
+
 }
 
 .footer__social-links_item {
