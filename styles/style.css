@@ -8,9 +8,8 @@
     justify-content: center;
 }
 
-.header__menu { 
-
-    display: grid;
+.header__menu {
+     display: grid;
     grid-template-columns: 1fr 150px 1fr;
     width: 1052px;
     height: 105px;
@@ -45,7 +44,7 @@
 }
 
 .header__logo {
-    
+
     height: 105px;
     width: 148px;
     justify-self: center;
