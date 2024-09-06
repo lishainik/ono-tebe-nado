@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   margin-right: 26px;
   width: 400px;
-  margin-left: 26px;
+  margin-left: 23px;
 }
 
 .header__links-list {
@@ -29,7 +29,6 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 16px;
-  padding-top: 8px;
 }
 
 .header__links-item {
@@ -96,8 +95,7 @@
   width: 100%;
   align-content: center;
   flex-direction: column;
-  margin-top: 162px;
-  margin-bottom: 122px;
+  margin: 162px auto 120px;
   z-index: 1;
   font-weight: 700;
   font-size: 100px;
@@ -105,23 +103,22 @@
   color: #fff;
   letter-spacing: 28px;
   text-transform: uppercase;
+  padding-right: 52px;
+  padding-left: 52px;
 }
 
 .aligned-text {
   align-self: flex-start;
   margin-bottom: 15px;
-  margin-left: 52px;
 }
 
 .aligned-text_center {
   align-self: center;
   margin-bottom: 5px;
-  padding-right: 30px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
-  margin-right: 52px;
 }
 
 .letter-spacing-extended {
