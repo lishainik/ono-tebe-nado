@@ -254,7 +254,6 @@
 
 .about {
   display: grid;
-  min-height: 595px;
   grid-template-columns: 334px auto;
   gap: 50px;
   margin-top: 146px;
